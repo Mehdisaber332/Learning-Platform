@@ -5,8 +5,8 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Lessons from './components/Lessons';
 import Login from './components/Login'; 
-import ForgotPassword from './components/ForgotPassword'; // Import ForgotPassword component
-import Posts from './components/Posts';
+import Posts from './components/Posts'; // Import Posts component
+import ForgotPassword from './components/ForgotPassword';
 import About from './components/About';
 
 const App = () => {
@@ -17,8 +17,8 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/lessons" element={<Lessons />} />
                 <Route path="/login" element={<Login />} />
-                <Route path="/forgot-password" element={<ForgotPassword />} /> {/* Add route for Forgot Password */}
-                <Route path="/posts" element={<Posts />} />
+                <Route path="/forgot-password" element={<ForgotPassword />} />
+                <Route path="/posts" element={<Posts />} /> {/* Add route for Posts */}
                 <Route path="/about" element={<About />} />
             </Routes>
             <Footer />
