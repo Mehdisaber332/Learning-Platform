@@ -1,0 +1,17 @@
+.start-now-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 2rem; /* Adjusted to give some space from the text */
+    background-color: #ffcc00;
+    color: #004080;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .start-now-button:hover {
+    background-color: #004080;
+    color: #ffcc00;
+  }  

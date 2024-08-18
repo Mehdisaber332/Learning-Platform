@@ -1,0 +1,23 @@
+.footer {
+    padding: 1rem;
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin: 0 1rem;
+  }
+  
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
